@@ -1,7 +1,10 @@
-body { background-color: blue;
+body { background-image: url(http://physicalasanything.com.au/wp-content/uploads/2017/12/293788786-psychic-fair-sacred-geometry.jpg);
+  background-color:  rgb(172, 145, 207);
   color: white;
+  font-size: 40px;
+
 }
 
-h1 { background-color: blue;
+h1 { background-color:pink;
   color: white;
-font-family: 'Courier New', Courier, monospace}
+font-family: cursive}
