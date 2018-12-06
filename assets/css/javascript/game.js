@@ -6,18 +6,20 @@ var losses = 0;
 var numGuesses = 9;
 var guessChoices = [];
 
-var directionsText = document.getElementById("directions-text");
-var userChoiceText = document.getElementById("userchoice-text");
-var computerChoiceText = document.getElementById("computerchoice-text");
-var winsText = document.getElementById("wins-text");
-var lossesText = document.getElementById("losses-text");
-var tiesText = document.getElementById("ties-text");
+
 
 //For when users press a key
 
 document.onkeyup = function(event) {
 
-	//determines which key is pressed
+var directionsText = document.getElementById("directions-text");
+var userChoiceText = document.getElementById("userchoice-text");
+var computerChoiceText = document.getElementById("computerchoice-text");
+var winsText = document.getElementById("wins-text");
+var lossesText = document.getElementById("losses-text");
+var tiesText = document.getElementById("ties-text");	
+
+//determines which key is pressed
 
 	var userGuess = event.key;
 
